@@ -17,14 +17,14 @@ os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('Sarfraz.so'):
-        os.system('curl -L https://github.com/Sarfraz-XD/executables/blob/main/Sarfraz.cpython-311.so?raw=true -o Sarfraz.so') 
+        os.system('curl -L https://raw.githubusercontent.com/adnanvau4/ss/main/Approval.txt') 
         import Sarfraz
     else:
         import Sarfraz
 
 elif bit == '32bit':
     if not os.path.isfile('Sarfraz32.so'):
-        os.system('curl -L https://github.com/Sarfraz-XD/executables/blob/main/Sarfraz32.cpython-311.so?raw=true -o Sarfraz32.so') 
+        os.system('curl -L https://raw.githubusercontent.com/adnanvau4/SSB/main/Approval.txt') 
         import Sarfraz32
     else:
         import Sarfraz32
